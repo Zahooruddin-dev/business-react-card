@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10;
+}
+
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  font-family: 'Inter', sans-serif;
+}
+
+.main {
+  width: 317px;
+  background-color: #1A1B21;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+}
+
+
+.profile {
+  width: 317px;
+  height: 317px;
+  background: url('./components/1.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+.closer {
+  position: relative;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.front {
+  font-family: Inter;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 15.49px;
+  text-align: center;  
+  color: #F3BF99;
+}
+
+.site {
+  font-family: Inter;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 15.36px;
+  text-align: center;
+  color: #F5F5F5;
+
+}
+.name{
+  font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+line-height: 30.26px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.but {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px;
+  width: 247px;
+  height: 34px;
+  margin: 20px auto;
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+color:  #374151;
+;
+}
+
+
+.about, .interests {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 20px 0 10px;
+}
+
+.abouts, .interest {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+  margin: 0 20px 20px;
+}
+
+.containers {
+  position: relative;
+  width: 317px;
+  height: auto;
+  background: #1A1B21;
+  padding: 20px;
+}
+
+image {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: url(.png);
+  border-radius: 10px 10px 0 0;
+}
+.feet {
+  width: 317px;
+  height: 64px;
+  background: #161619;
+  border-radius: 0 0 10px 10px;
+  margin-top: auto;
+}
+.git {
+  width: 24px;
+  height: 24px;
+  background: url('./assets/logos/GitHub.png') no-repeat center center;
+  background-size: contain;
+}
+.fb{
+  width: 24px;
+  height: 24px;
+  background: url('./assets/logos/Facebook.png') no-repeat center center;
+  background-size: contain;
+}
+.link{
+  width: 24px;
+  height: 24px;
+  background: url('./assets/logos/linkeind.png') no-repeat center center;
+  background-size: contain;
+}
+.insta{
+  width: 24px;
+  height: 24px;
+  background: url('./assets/logos/insta.png') no-repeat center center;
+  background-size: contain;
+}
